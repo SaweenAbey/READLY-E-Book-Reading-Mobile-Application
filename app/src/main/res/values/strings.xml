@@ -24,6 +24,10 @@
     <string name="facebook">Facebook</string>
     <string name="signIn">Sign In</string>
     <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="i_agree_to_the_terms_amp_privacy_policy"><![CDATA[I agree to the Terms & Privacy Policy]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
 
 
 </resources>
