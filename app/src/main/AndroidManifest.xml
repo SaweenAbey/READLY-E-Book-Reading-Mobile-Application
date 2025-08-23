@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReadlyEbooK">
         <activity
+            android:name=".Lord"
+            android:exported="false" />
+        <activity
+            android:name=".LordofTheRing"
+            android:exported="false" />
+        <activity
+            android:name=".LoardOftheRing"
+            android:exported="false" />
+        <activity
+            android:name=".CompassReadingView"
+            android:exported="false" />
+        <activity
             android:name=".Payment"
             android:exported="false" />
         <activity

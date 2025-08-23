@@ -44,6 +44,17 @@
     <string name="back">Back</string>
     <string name="details">Details</string>
 
+    <string name="chapter">Chapter 1</string>
+    <string name="Book1_Chap1">They are on the run from Lord Kodoc, a ruthless ruler who is obsessed with capturing Chess because of his unique ability: he was born with fog in his lungs and can survive in it, unlike anyone else. Kodoc wants to exploit this power for his own purposes.
 
+As they navigate the skies, the crew is exhausted and anxious. Their mentor and caretaker, Mrs. E, is gravely ill, and time is running out to find the mythical Compass, a place rumored to be safe and possibly hold a cure for her.
+In the opening chapter, we get a glimpse of their strong camaraderie and resourcefulness, but also the weight of their mission. Tension rises when they spot a sky patrol ship, forcing them to hide in a dangerous stretch of sky known as the Jumble,
+        filled with drifting junk and hazards.Kodoc wants to exploit this power for his own purposes. As they navigate the skies, the crew is exhausted and anxious.
+        Their mentor and caretaker, Mrs. E, is gravely ill </string>
+
+    <string name="book2">The Lord Of the Ring</string>
+    <string name="b2_title">In the land of Middle-earth, an ancient and powerful object known as the One Ring has been found after centuries of being lost. Forged by the Dark Lord Sauron to control all other Rings of Power and enslave the world, the Ring is inherently evil and corrupts those who possess it.</string>
+    <string name="preview">Preview</string>
+    <string name="purchase">Purchase</string>
 
 </resources>
