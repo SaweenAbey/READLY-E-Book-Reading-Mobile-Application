@@ -5,6 +5,7 @@
     <string name="slogan3">Start Your Journey Today</string>
     <string name="slogan3Description">Begin exploring books you’ll love.</string>
     <string name="imgDesc">imgSec</string>
+
     <string name="onscreen1">Welcome To Readly</string>
     <string name="Welcome">Your Digital Reading Area</string>
     <string name="buttonValue1">NEXT</string>
@@ -19,6 +20,7 @@
     <string name="AlreadyHaveAccount">Already have an account?</string>
     <string name="no7tAccount">Do not Have an account yet?</string>
     <string name="SignUp">Sign Up</string>
+
     <string name="or">OR</string>
     <string name="google">Google</string>
     <string name="facebook">Facebook</string>
@@ -28,6 +30,20 @@
     <string name="i_agree_to_the_terms_amp_privacy_policy"><![CDATA[I agree to the Terms & Privacy Policy]]></string>
     <string name="sign_up">Sign Up</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="Book1">The Lost Compass</string>
+    <string name="reads">Reads</string>
+    <string name="_4_7">4.7</string>
+    <string name="_84_3k">84.3K</string>
+    <string name="pages">Pages</string>
+    <string name="ratings">Ratings</string>
+    <string name="_243">243</string>
+
+    <string name="Adventure">Adventure</string>
+    <string name="description">After escaping the slums of the Lower Quarter in a flying salvage ship, Chess and his ragtag crew of outcasts Hazel, Bea, Swedish, and Loretta continue their quest to find a safe haven above the fog.</string>
+    <string name="startReading">Start Reading</string>
+    <string name="back">Back</string>
+    <string name="details">Details</string>
+
 
 
 </resources>

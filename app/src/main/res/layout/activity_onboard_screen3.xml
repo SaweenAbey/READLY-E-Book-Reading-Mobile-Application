@@ -17,8 +17,8 @@
         android:id="@+id/guidelineBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintGuide_percent="0.60"
-        android:orientation="horizontal" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="539dp" />
 
 
     <ImageView
@@ -35,6 +35,18 @@
         app:srcCompat="@drawable/onbord2"
         app:layout_constraintDimensionRatio="H,4:5" />
 
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="706dp"
+        android:layout_height="652dp"
+        android:contentDescription="@string/imgDesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivIllustration"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/corner" />
 
     <TextView
         android:id="@+id/tvTitle"

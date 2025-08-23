@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReadlyEbooK">
         <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".LostCompass"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false" />
         <activity
