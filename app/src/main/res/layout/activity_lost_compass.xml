@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/qrpayment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:contentDescription="@string/imgDesc"
@@ -123,11 +123,11 @@
         app:layout_constraintVertical_bias="0.246" />
 
     <TextView
-        android:id="@+id/tvBack"
+        android:id="@+id/backbtn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="16dp"
         android:clickable="true"
         android:focusable="true"
         android:fontFamily="@font/inter_bold"
@@ -136,7 +136,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />

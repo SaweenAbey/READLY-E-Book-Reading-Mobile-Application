@@ -57,4 +57,36 @@ In the opening chapter, we get a glimpse of their strong camaraderie and resourc
     <string name="preview">Preview</string>
     <string name="purchase">Purchase</string>
 
+    <string name="book2_details">
+        "Title: The Lord of the Rings
+        Author: J.R.R. Tolkien
+        Genre: High Fantasy / Epic Fantasy
+        Language: English
+        Published:
+            The Fellowship of the Ring – July 29, 1954
+            The Two Towers – November 11, 1954
+            The Return of the King – October 20, 1955
+            Original Publisher: George Allen and Unwin (UK)
+        Number of Volumes: 3
+        Total Pages: ~1,200 (varies by edition)
+        🧙‍♂️ About the Story
+        Set in the mythical world of Middle-earth, The Lord of the Rings tells the story of the struggle to destroy the One Ring,
+        a powerful and malevolent artifact created by the dark lord Sauron. The central quest follows Frodo Baggins, a young hobbit,
+        and his companions as they attempt to bring the Ring to Mount Doom to destroy it and end Sauron’s reign of terror."
+    </string>
+    <string name="purchase_details">Purchase Details :</string>
+    <string name="purchase_details1">Purchase Details</string>
+    <string name="select_number_of_chapters">Select number of chapters</string>
+    <string name="price_per_chapter">Price per chapter</string>
+    <string name="_0_00">Rs0.00</string>
+    <string name="amount_due">Amount due</string>
+    <string name="_1">1</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="scan">Scan QR Code :</string>
+    <string name="b2details">Details</string>
+    <string name="done">Done</string>
+
+
 </resources>

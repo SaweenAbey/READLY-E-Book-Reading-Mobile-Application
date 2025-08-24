@@ -2,83 +2,87 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/qrpayment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".Lord">
-
-    <ImageView
-        android:id="@+id/bgCover"
-        android:layout_width="0dp"
-        android:layout_height="250dp"
-        android:scaleType="centerCrop"
-        android:alpha="0.3"
-        app:srcCompat="@drawable/book2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-
-    <TextView
-        android:id="@+id/tvBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Back"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <TextView
-        android:id="@+id/tvDetails"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Details"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="16dp"/>
 
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/bookCard"
         android:layout_width="180dp"
         android:layout_height="240dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="-80dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#C7FFFFFF"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:layout_constraintTop_toBottomOf="@id/bgCover"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/bgCover">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:contentDescription="@string/imgDesc"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/loard1" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="28dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/imgDesc"
+            app:srcCompat="@drawable/premium"
+            tools:ignore="ImageContrastCheck" />
+
     </com.google.android.material.card.MaterialCardView>
 
+
+    <ImageView
+        android:id="@+id/bgCover"
+        android:layout_width="416dp"
+        android:layout_height="411dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.3"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTintMode="multiply"
+        android:contentDescription="@string/imgDesc"
+        android:scaleType="centerCrop"
+        app:circularflow_defaultRadius="@dimen/cardview_default_radius"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/book2"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/details"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgCover" />
 
     <TextView
         android:id="@+id/tvBookTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="The Lord of the Rings"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:textSize="20sp"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/bookCard"
+        android:text="@string/book2"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/bookCard" />
 
 
     <LinearLayout
@@ -86,110 +90,108 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:orientation="horizontal"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/tvBookTitle"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/tvBookTitle" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="104.3k Reads"
-            android:drawableLeft="@android:drawable/ic_menu_view"
-            android:drawablePadding="4dp"
-            android:textColor="@android:color/black"
-            android:paddingEnd="16dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="4.9"
-            android:drawableLeft="@android:drawable/btn_star"
-            android:drawablePadding="4dp"
-            android:textColor="@android:color/black"
-            android:paddingEnd="16dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="1077 Pages"
-            android:drawableLeft="@android:drawable/ic_menu_agenda"
-            android:drawablePadding="4dp"
-            android:textColor="@android:color/black" />
-    </LinearLayout>
-
-
-    <TextView
-        android:id="@+id/tvAuthor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="J. R. R. Tolkien (Author)"
-        android:textColor="@android:color/black"
-        android:textSize="14sp"
-        app:layout_constraintTop_toBottomOf="@id/statsRow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <!-- Synopsis Title -->
-    <TextView
-        android:id="@+id/tvSynopsis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Synopsis"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvAuthor"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/tvSynopsisBody"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="In the land of Middle-earth, an ancient and powerful object known as the One Ring has been found..."
-        android:textSize="14sp"
-        android:lineSpacingExtra="2dp"
-        android:justificationMode="inter_word"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/tvSynopsis"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 
     <LinearLayout
         android:id="@+id/actionButtons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:orientation="horizontal"
+        android:layout_marginTop="152dp"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/tvSynopsisBody"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/statsRow"
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="VisualLintBounds">
 
         <Button
             android:id="@+id/btnPreview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Preview"
+            android:layout_marginEnd="12dp"
             android:backgroundTint="@color/book2btns"
+            android:text="@string/preview"
             android:textColor="@android:color/black"
-            android:layout_marginEnd="12dp"/>
+            tools:ignore="ButtonStyle,VisualLintBounds" />
 
         <Button
             android:id="@+id/btnPurchase"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Purchase"
             android:backgroundTint="@color/book2btns"
-            android:textColor="@android:color/black"/>
+            android:text="@string/purchase"
+            android:textColor="@android:color/black"
+            tools:ignore="ButtonStyle,VisualLintBounds" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imgDesc"
+        app:layout_constraintBottom_toTopOf="@+id/actionButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBookTitle"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/read" />
+
+    <TextView
+        android:id="@+id/backbtn1"
+        android:layout_width="45dp"
+        android:layout_height="21dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/back"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bookCard"
+        app:layout_constraintEnd_toStartOf="@+id/tvDetails"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgCover"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/imgDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/b2author"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/book2btns"
+        android:text="@string/Adventure"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/actionButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.019"
+        tools:ignore="VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,11 +6,11 @@
 
     <stroke
         android:width="2dp"
-        android:color="@color/secondary"/>
+        android:color="@color/ButtonColor"/>
 
     <!-- Optional rounded corners -->
     <corners android:topLeftRadius="50dp"
         android:topRightRadius="50dp"
-        android:bottomLeftRadius="0dp"
-        android:bottomRightRadius="0dp"/>
+        android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp"/>
 </shape>

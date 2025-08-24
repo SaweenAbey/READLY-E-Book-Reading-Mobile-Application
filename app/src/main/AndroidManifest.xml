@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReadlyEbooK">
         <activity
+            android:name=".PaymentDone"
+            android:exported="false" />
+        <activity
+            android:name=".CardPayment"
+            android:exported="false" />
+        <activity
+            android:name=".QrPayment"
+            android:exported="false" />
+        <activity
+            android:name=".LordBookPreview"
+            android:exported="false" />
+        <activity
+            android:name=".lordPreview"
+            android:exported="false" />
+        <activity
             android:name=".Lord"
             android:exported="false" />
         <activity
