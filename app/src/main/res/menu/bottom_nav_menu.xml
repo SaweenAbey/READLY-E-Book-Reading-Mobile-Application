@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/ButtonColor"/>
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/ic_library_24"
+        android:title="@string/library"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/ButtonColor"/>
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_search_24"
+        android:title="@string/search"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/ButtonColor"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings_24"
+        android:title="@string/settings"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/ButtonColor"/>
+</menu>

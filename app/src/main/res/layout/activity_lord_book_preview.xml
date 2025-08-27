@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/qrpayment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LordBookPreview">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="316dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle2"
+        tools:ignore="VisualLintBounds">
+
+        <ScrollView
+            android:id="@+id/textViewDetails"
+            android:layout_width="269dp"
+            android:layout_height="409dp"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            tools:ignore="InefficientWeight">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/book2_details"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                tools:ignore="UnusedAttribute" />
+        </ScrollView>
+
+        <View
+            android:layout_width="48dp"
+            android:layout_height="4dp"
+            android:layout_marginBottom="12dp"
+            android:alpha="0.3"
+            android:background="@android:color/darker_gray"
+            android:clipToOutline="true"
+            tools:targetApi="31" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="@string/book2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageCover2"
+        tools:ignore="VisualLintBounds,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/imageCover2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/imgDesc"
+        app:layout_constraintDimensionRatio="2:3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.6"
+        app:srcCompat="@drawable/lord"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/topBar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_arrow_back_24"
+        android:fontFamily="@font/inter_semibold"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationContentDescription="@string/back"
+        app:navigationIcon="@drawable/ic_arrow_back_24"
+        app:titleCentered="false"
+        app:titleTextColor="@color/black" />
+
+    <Button
+        android:id="@+id/Purchase1"
+        android:layout_width="191dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="@color/book2btns"
+        android:fontFamily="@font/inter_semibold"
+        android:text="@string/purchase"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

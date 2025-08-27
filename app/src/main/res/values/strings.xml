@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Readly-EbooK</string>
+    <string name="slogan2">Read Anytime, Anywhere</string>
+    <string name="slogan2Description">Your stories, the way you like them.</string>
+    <string name="slogan3">Start Your Journey Today</string>
+    <string name="slogan3Description">Begin exploring books you’ll love.</string>
+    <string name="imgDesc">imgSec</string>
+
+    <string name="onscreen1">Welcome To Readly</string>
+    <string name="Welcome">Your Digital Reading Area</string>
+    <string name="buttonValue1">NEXT</string>
+    <string name="getStartedbtn">GET STARTED</string>
+    <string name="login">Login</string>
+    <string name="register">REGISTER</string>"
+    <string name="forgot_password">Forgot password?</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="AlreadyHaveAccount">Already have an account?</string>
+    <string name="no7tAccount">Do not Have an account yet?</string>
+    <string name="SignUp">Sign Up</string>
+
+    <string name="or">OR</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="signIn">Sign In</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="i_agree_to_the_terms_amp_privacy_policy"><![CDATA[I agree to the Terms & Privacy Policy]]></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="Book1">The Lost Compass</string>
+    <string name="reads">Reads</string>
+    <string name="_4_7">4.7</string>
+    <string name="_84_3k">84.3K</string>
+    <string name="pages">Pages</string>
+    <string name="ratings">Ratings</string>
+    <string name="_243">243</string>
+
+    <string name="Adventure">Adventure</string>
+    <string name="description">After escaping the slums of the Lower Quarter in a flying salvage ship, Chess and his ragtag crew of outcasts Hazel, Bea, Swedish, and Loretta continue their quest to find a safe haven above the fog.</string>
+    <string name="startReading">Start Reading</string>
+    <string name="back">Back</string>
+    <string name="details">Details</string>
+
+    <string name="chapter">Chapter 1</string>
+    <string name="Book1_Chap1">They are on the run from Lord Kodoc, a ruthless ruler who is obsessed with capturing Chess because of his unique ability: he was born with fog in his lungs and can survive in it, unlike anyone else. Kodoc wants to exploit this power for his own purposes.
+
+As they navigate the skies, the crew is exhausted and anxious. Their mentor and caretaker, Mrs. E, is gravely ill, and time is running out to find the mythical Compass, a place rumored to be safe and possibly hold a cure for her.
+In the opening chapter, we get a glimpse of their strong camaraderie and resourcefulness, but also the weight of their mission. Tension rises when they spot a sky patrol ship, forcing them to hide in a dangerous stretch of sky known as the Jumble,
+        filled with drifting junk and hazards.Kodoc wants to exploit this power for his own purposes. As they navigate the skies, the crew is exhausted and anxious.
+        Their mentor and caretaker, Mrs. E, is gravely ill </string>
+
+    <string name="book2">The Lord Of the Ring</string>
+    <string name="b2_title">In the land of Middle-earth, an ancient and powerful object known as the One Ring has been found after centuries of being lost. Forged by the Dark Lord Sauron to control all other Rings of Power and enslave the world, the Ring is inherently evil and corrupts those who possess it.</string>
+    <string name="preview">Preview</string>
+    <string name="purchase">Purchase</string>
+
+    <string name="book2_details">
+        "Title: The Lord of the Rings
+        Author: J.R.R. Tolkien
+        Genre: High Fantasy / Epic Fantasy
+        Language: English
+        Published:
+        The Fellowship of the Ring – July 29, 1954
+        The Two Towers – November 11, 1954
+        The Return of the King – October 20, 1955
+        Original Publisher: George Allen and Unwin (UK)
+        Number of Volumes: 3
+        Total Pages: ~1,200 (varies by edition)
+        🧙‍♂️ About the Story
+        Set in the mythical world of Middle-earth, The Lord of the Rings tells the story of the struggle to destroy the One Ring,
+        a powerful and malevolent artifact created by the dark lord Sauron. The central quest follows Frodo Baggins, a young hobbit,
+        and his companions as they attempt to bring the Ring to Mount Doom to destroy it and end Sauron’s reign of terror."
+    </string>
+    <string name="purchase_details">Purchase Details :</string>
+    <string name="purchase_details1">Purchase Details</string>
+    <string name="select_number_of_chapters">Select number of chapters</string>
+    <string name="price_per_chapter">Price per chapter</string>
+    <string name="_0_00">Rs0.00</string>
+    <string name="amount_due">Amount due</string>
+    <string name="_1">1</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="scan">Scan QR Code :</string>
+    <string name="b2details">Details</string>
+    <string name="done">Done</string>
+    <string name="settings">Profile</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="search">Search</string>
+    <string name="library">Library</string>
+    <string name="home">Home</string>
+    <string name="logging_with_facebook">Logging With Facebook</string>
+    <string name="logging_with_google">Logging With Google</string>
+
+    <string name="view">view</string>
+    <string name="lordring">LordRing</string>
+    <string name="sawee">Hi..Sawee !</string>
+    <string name="home_slogan">Find Your Favourite Book</string>
+    <string name="hi_sawee">Hi, Sawee!</string>
+    <string name="find_your_favourite_book">Find Your Favourite Book</string>
+    <string name="for_you">For You</string>
+    <string name="trending">Trending</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+    <string name="results">Result</string>
+    <string name="recent_searches">Recently Search</string>
+    <string name="free">Free</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="fiction">Fliction</string>
+    <string name="non_fiction">Non- Fliction</string>
+    <string name="search_books_authors">Search Book  by Author</string>
+    <string name="court_of_mist_and_fury">Court of Mist and Fury</string>
+    <string name="it_ends_with_us">It Ends With Us</string>
+    <string name="all">All</string>
+    <string name="reading">Reading</string>
+    <string name="completed">Completed</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="your_bookmarks">Your Bookmarks</string>
+    <string name="clear_all">Clear All</string>
+    <string name="sarah_j_maas">Sarah J. Maas</string>
+    <string name="colleen_hoover">Colleen Hoover</string>
+    <string name="reader_name">Saween Udana</string>
+    <string name="reader_email_com">saween910@email.com</string>
+    <string name="edit">Edit</string>
+    <string name="_28">28</string>
+    <string name="books_read">Books read</string>
+    <string name="_120h">120h</string>
+    <string name="hours_read">Hours read</string>
+    <string name="_64">64</string>
+    <string name="account">Account</string>
+
+    <string name="profile_details">Profile details</string>
+    <string name="arr">›</string>
+    <string name="downloads">Downloads</string>
+    <string name="preferences">Preferences</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="log_out">Log out</string>
+    <string name="card_number">Card Number</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="cvv">CVV</string>
+    <string name="save_card_information">Save card Information</string>
+    <string name="proceed_to_pay">Proceed to Pay</string>
+    <string name="change_photo">Change photo</string>
+    <string name="full_name">Full name</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="bio_optional">Bio (optional)</string>
+    <string name="new_password">New password</string>
+    <string name="save">Save</string>
+    <string name="skip">Skip</string>
+
+</resources>
